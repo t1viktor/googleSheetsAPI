@@ -1,0 +1,57 @@
+*{
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   font-family: 'poppins', sans-serif;
+   font-size: 18px;
+}
+
+:root{
+    --01: #2c578f;
+    --02: #a36e28;
+    --03: #b43e08;
+    --04: #fff;
+}
+
+body{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: var(--03);
+}
+.container{
+   width: 500px;
+   padding: 30px;
+   border: 2px solid var(--04);
+   border-radius: 10px;
+   background-color: var(--01);
+}
+h4{
+   margin-bottom: 10px;
+   font-size: 24px;
+   color: white;
+}
+input{
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 10px;
+}
+textarea{
+   width: 100%;
+   padding: 10px;
+}
+#submit{
+   border: solid 2px var(--04);
+   background-color: var(--02);
+   color: white;
+   width: 200px;
+   margin-top: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+#submit:hover{
+   background-color: var(--03);
+   color: var(--04);
+}
